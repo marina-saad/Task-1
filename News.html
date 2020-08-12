@@ -1,0 +1,123 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>News</title>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="main style.css">
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+    <style>
+        ul{
+            list-style-type: none;
+        }
+        .finally::before{
+            content: "\25BC";
+        }
+        .finally:placeholder-shown{
+            display: block;
+        }
+        
+
+        #try{
+          margin-top: 7%;
+           
+        }
+        button{
+            background-color: white;
+            box-shadow: none;
+        }
+        header{
+            margin: 8px;
+        }
+        
+    </style>
+
+</head>
+<body>
+    <header class="menu-bar">
+        <a href="Home.html"> Home</a>
+        <a href="Courses.html"> Courses</a>
+        <a href="News.html"> News</a>
+        <a href="About Us.html"> About Us</a>
+        <a href="Contact Us.html"> Contact Us</a>
+        <br>
+        <div class="bar">
+            <a href="Home.html">Home</a> 
+            <span style="font-size: 25px;">/</span>
+            <a id="test" style="text-decoration: none;">News</a>     
+        </div>
+    </header>
+    <div id="try">
+        <ul>
+          <!--  <li class="finally" > <button class="btn collapsed" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                news 1
+              </button> 
+              <div id="collapseOne" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  this news to aaaaa
+                </div>
+              </div>
+                
+            </li>
+            <li class="finally"> <button class="btn collapsed "  data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                news 2
+              </button> 
+              <div id="collapseTwo" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  this news to bbbbb
+                </div>
+              </div></li>
+            <li class="finally"><button class="btn  collapsed" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                news 3
+              </button> 
+              <div id="collapseThree" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  this news to cccccc
+                </div>
+              </div></li>
+            <li class="finally"><button class="btn  collapsed" data-toggle="collapse" data-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                news 4
+              </button> 
+              <div id="collapseFour" class="collapse " aria-labelledby="headingOne" data-parent="#accordion">
+                <div class="card-body">
+                  this news to dddddd
+                </div>
+              </div></li>-->
+              <li> 
+                  <details>
+                      <summary>
+                          news 1
+                        </summary>
+                        this news to aaaaaa
+                    </details> 
+                </li>
+              <li> 
+                  <details>
+                      <summary> news 2  </summary> 
+                      this news to bbbbbbb
+                    </details> 
+                </li>
+              <li>
+                  <details>
+                      <summary>
+                          news 3
+                      </summary>
+                      this news to ccccccc
+                  </details>
+              </li>
+              <li>
+                  <details>
+                      <summary>
+                          news 4
+                      </summary>
+                      this news to ddddddddd
+                  </details>
+              </li>
+        </ul>
+    </div>
+
+</body>
+</html>

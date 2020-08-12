@@ -1,0 +1,39 @@
+.menu-bar{
+    display: block;
+    width: auto;
+    height: 50px;
+   
+    border-top: 1px solid darkgrey;
+
+}
+.menu-bar a{
+    display: inline-block;
+    width: 90px;
+    height: 45px;
+    background-color: #F2FFF1;
+    line-height: 50px;
+    text-align: center;
+    border: 2px dotted #6bcfff ;
+    
+
+}
+.bar{
+    display: block;
+    background-color:#B0DFE5;
+    height: 45px;
+    margin-top: 10px;
+    
+}
+.bar a{
+    background-color: transparent;
+    display: inline;
+    color: black;
+    border: none;
+    
+    margin-left: 10px;
+    font-size: 20px;
+    line-height: 40px;
+}
+#test{
+    margin-left: 0px;
+}

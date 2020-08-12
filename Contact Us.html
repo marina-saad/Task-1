@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Contact Us</title>
+    <link rel="stylesheet" href="main style.css">
+    <style>
+        form{
+            
+            margin-top: 5%;
+        }
+        .SpanRed{
+            color: red;
+            vertical-align: -webkit-baseline-middle;
+        }
+        label{
+
+            display: inline-block;
+            width: 80px;
+            
+            font-size: 20px;
+           /* background-color: sandybrown;*/
+        }
+        input{
+            margin-bottom: 5px;
+            height: 30px;
+            width: 250px;
+        }
+        textarea{
+            margin-top: 5px;
+            width: 250px;
+            /*background-color: royalblue;*/
+        }
+        form{
+            font-size: 30px;
+            font-weight: bold;
+        }
+        #send{
+            position: relative;
+            left: 350px;
+            width: 150px;
+            font-size: 20px;
+            background-color: #B0DFE5;
+            border:  2px dotted blue;
+        }
+    </style>
+</head>
+<body>
+    <header class="menu-bar">
+        <a href="Home.html"> Home</a>
+        <a href="Courses.html"> Courses</a>
+        <a href="News.html"> News</a>
+        <a href="About Us.html"> About Us</a>
+        <a href="Contact Us.html"> Contact Us</a>
+        <br>
+        <div class="bar">
+            <a  href="Home.html">Home</a> 
+            <span style="font-size: 25px;">/</span>
+            <a id="test" style="text-decoration: none;">Contact Us</a>     
+        </div>
+    </header>
+    <form action="done.html">
+        <label for=""> Name: </label>
+        <input type="text" required='required'>  <span class="SpanRed">*</span>
+        <br>
+        <label for=""> Email: </label>
+        <input type="text" required='required'>  <span class="SpanRed">*</span>
+        <br>
+        <label for=""> Mobile: </label>
+        <input type="number" required='required'>  <span class="SpanRed">*</span>
+        <br>
+        <label for=""> Subject: </label>
+        <input type="text" required='required'>  <span class="SpanRed">*</span>
+        <br>
+        <label for="" style="vertical-align: middle; margin-top: -150px;"> Message: </label>
+        <textarea name="message " id="" cols="30" rows="10"></textarea>
+        <span class="SpanRed" style="vertical-align: middle; position: absolute; margin-top: 55px;">*</span>
+        <br>
+        <input  type="submit" value="Send Message " id="send" > 
+
+    </form>
+</body>
+</html>
